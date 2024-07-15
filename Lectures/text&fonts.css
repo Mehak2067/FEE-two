@@ -1,0 +1,13 @@
+.a1{
+    text-align: center;
+}
+h1{
+    text-align:inherit;
+}
+p{
+    text-align: justify;
+}
+h3{
+text-shadow: 10px 8px 5px salmon;
+color: transparent;
+}
