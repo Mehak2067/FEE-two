@@ -1,0 +1,21 @@
+/*Decendent Combinator Selector*/
+ul li a{
+    color: rgb(8, 87, 7);
+    text-decoration: none;
+}
+
+/*Child selector*/
+ol>li{
+    background-color: beige;
+    text-decoration: none;
+}
+
+/*Adjacent selector*/
+h3+p{
+    border-top: 2px solid palevioletred;
+}
+
+/*sibling selector*/
+div~p{
+    color: rgb(138, 226, 120);
+}
