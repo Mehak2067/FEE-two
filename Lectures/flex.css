@@ -1,0 +1,38 @@
+#container{
+    height:150px;
+    width:600px;
+    background-color: yellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:end;
+    justify-content: space-evenly;
+}
+.box1{
+
+    height:100px;
+    width:100px;
+    background-color: green;
+    text-align: center;
+}
+.box2{
+
+    height:100px;
+    width:100px;
+    background-color: pink;
+    text-align: center;
+}
+.box3{
+
+    height:100px;
+    width:100px;
+    background-color: purple;
+    text-align: center;
+}
+.box4{
+
+    height:100px;
+    width:100px;
+    background-color: red;
+    text-align: center;
+}
