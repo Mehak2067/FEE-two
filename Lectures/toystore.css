@@ -1,0 +1,207 @@
+
+body{
+    padding:0;
+    margin:0;
+    background-image:url("toystorebackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height:90vh;
+}
+#topborder{
+background-color: #a5c926;
+text-decoration: none;
+height:30px;
+
+}
+#one{
+    color:white;
+    padding:20px;
+}
+#navbar{
+    background-color: rgb(255, 255, 255);
+    height:80px;
+  
+}
+#two{
+    text-decoration: none;
+    color:rgb(43, 43, 43);
+    padding-left:40px;
+    padding-bottom: 60px;
+}
+#add{
+    display:flex;
+    flex-direction: row;
+    height:150px;
+    margin-top:900px;
+}
+.stuffedanimals{
+    background-color: #ffc12c;
+    color:black;
+    height:200px;
+    width:500px;
+    margin-left:50px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+   text-align: justify;
+   
+}
+#an{
+    margin-top:-80px;
+}
+.woddentoys{
+    background-color: #fb416b;
+    color:black;
+    height:200px;
+    width:500px;
+    display: flex;
+    margin-left:40px;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+   display:inline;
+}
+#StuffedAnimals{
+    height:500px;
+}
+#main{ 
+    display:flex;
+    justify-content: space-around;
+    padding-left:20px;
+}
+
+.three{
+border:1px transparent;
+background-color: white;
+height:270px;
+width:250px;
+border-radius: 25px;
+border: 2px solid rgb(223, 220, 220);
+padding:20px;
+margin-left:15px;
+transition:transform 0.5s ease;
+transition-delay:1ms;
+}
+.three:hover{
+    transform:scale(1.1);
+}
+#four{
+    padding-left:50px;
+}
+#five{
+    margin-left:50px;
+    background-color: #a5c926;
+    color:white;
+    border-radius: 25px;
+    border:1px white;
+}#shop{
+    height:40px;
+    width:150px;
+    margin-top:80px ;
+    margin-right:200px;
+    border-radius: 15px;
+}
+.h1{
+   
+}
+.h2{
+   
+}
+#scroll{
+
+}
+#m{
+    font-size:19px;
+    color:#a5c926;
+}
+#wr{
+    text-align:center;
+    font-family:"Varela Round", sans-serif;
+    font-size:28px;
+}
+#t{
+    color:grey;
+}
+#getitnow{
+    background-color: #a5c926;
+    height:50px;
+    width:130px;
+    color:white;
+    border:1px white;
+    border-radius: 25px;
+}
+#subs{
+    height:150px;
+    width:1000px;
+    margin-left:100px;
+    background-color:rgb(248, 247, 247);
+    border-radius: 20px;
+    display: flex;
+
+}
+#tele{
+    background-color: #a5c926;
+    border-radius:50%;
+    margin-left: 20px;
+    margin-top:20px;
+
+}
+#subscribe{
+    padding-left:10px;
+}
+#email{
+    height:50px;
+    width:300px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border:2px solid #a5c926;
+    margin-left:30px;
+    margin-top: 20px;
+    height:35px;
+}
+#subsc{
+    background-color:#a5c926;
+    color:white;
+    height:35px;
+    width:150px;
+    border-radius: 20px;
+    border:1px white;
+    margin-left:20px;
+    margin-top:20px
+}
+#last{
+
+}
+#images{
+    display:flex;
+    flex-direction: row;
+    
+   justify-content: space-evenly;
+}
+#b{
+    border-radius: 20px;
+}
+#Seemorephotos{
+    background-color:#a5c926;
+    height:50px;
+    width:130px;
+    color:white;
+    border:1px white;
+    border-radius: 25px;
+}
+.ft{
+    background-color: #a5c926;
+text-decoration: none;
+height:200px;
+width:1200px;
+
+}
+#two{
+    color:white;
+}
+#fti{
+padding-left:20px;
+
+}
