@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner Profile</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Planner Profile</h1>
+        <form id="eventForm">
+            <div class="input-group">
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="input-group">
+                <label for="venue">Venue:</label>
+                <input type="text" id="venue" placeholder="Enter the event venue" required>
+            </div>
+
+            <div class="input-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="input-group">
+                <label for="theme">Theme:</label>
+                <input type="text" id="theme" placeholder="Enter event theme" required>
+            </div>
+
+            <div class="input-group">
+                <label for="guests">Estimated Guests:</label>
+                <input type="number" id="guests" placeholder="Enter estimated guests" required>
+            </div>
+
+            <button type="submit">Finalize Event</button>
+        </form>
+
+        <div id="eventSummary" class="summary">
+            <h2>Event Summary</h2>
+            <p id="summaryText"></p>
+        </div>
+    </div>
+
+    <script src="one.js"></script>
+</body>
+</html>
+

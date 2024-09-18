@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip Card</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-container {
+      perspective: 1000px;
+    }
+
+    .flip-card {
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+    }
+
+    .flipped {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card .card {
+      backface-visibility: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .flip-card .card-back {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="card-container" style="width: 18rem;">
+    <div class="flip-card" id="flipCard">
+      <!-- Front of the card -->
+      <div class="card card-front">
+        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Card Front</h5>
+        </div>
+      </div>
+      <!-- Back of the card -->
+      <div class="card card-back bg-primary text-white">
+        <div class="card-body d-flex justify-content-center align-items-center">
+          <div>
+            <h5 class="card-title">Card Back</h5>
+            <p class="card-text">Some text on the back of the card.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button to flip the card -->
+  <button class="btn btn-primary mt-3" id="flipButton">Flip Card</button>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- JavaScript to handle the flip effect -->
+<script>
+  document.getElementById('flipButton').addEventListener('click', function() {
+    document.getElementById('flipCard').classList.toggle('flipped');
+  });
+</script>
+</body>
+</html>
+
